@@ -1,0 +1,111 @@
+.header{
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
+.headerList{
+    display: flex;
+    gap: 50px;
+}
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+} 
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerDesc{
+    margin: 20px 0;
+}
+.headerBtn{
+    background-color: #0071c2;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border: 3px solid #febb02;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+.headerSearchText{
+    color: lightgray;
+    font-weight: 500;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.option{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+ }
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+.optionCounter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: black;
+}
+.optionCounterButton{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    color: #0071c2;
+    border:1px solid #0071c2;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
