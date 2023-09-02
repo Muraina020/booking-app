@@ -1,0 +1,47 @@
+.resultPrice{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   gap: 65px;
+  
+ }
+ .reRating{
+     display: flex;
+     justify-content: space-between;
+   
+ }
+ .reText{
+     color: black;
+     font-weight: bold;
+ }
+ .resPriceBtn{
+     background-color: #003580;
+     color: white;
+     border: none;
+     height: 30px;
+     width: 30px;
+ }
+ .reTaxOpt{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     text-align: right;
+ }
+ .rePriceOpt{
+     font-size: 22px;
+     font-weight: 600;
+ }
+ .reTax{
+     font-size: 13px;
+     color: gray;
+ }
+ .rePriceBtn{
+    
+     background-color: #0071c2;
+     width: 100%;
+     padding: 10px 5px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     color: white;
+ }
