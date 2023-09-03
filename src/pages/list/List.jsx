@@ -5,7 +5,7 @@ import Header from '../../components/header/Header'
 import { useLocation } from 'react-router-dom'
 import { format } from 'date-fns'
 import { DateRange } from 'react-date-range'
-import SearchItem from '../../searchItem/SearchItem'
+import SearchItem from '../../components/searchItem/SearchItem'
 
 const List = () => {
   

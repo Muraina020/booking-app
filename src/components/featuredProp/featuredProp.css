@@ -55,3 +55,11 @@
     color: gray;
     font-weight: 500;
 }
+@media screen and (max-width: 600px){
+    .fp{
+     width: 90%;
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 20px;
+}
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./searchItem.css"
-import ResultPrice from '../components/resultPrice/ResultPrice'
+import ResultPrice from '../../components/resultPrice/ResultPrice'
 
 const SearchItem = () => {
   return (

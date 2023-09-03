@@ -3,8 +3,6 @@
     width: 100%;
     max-width: 1024px;
     max-width: 1024;
-
- 
 }
 .fList{
     width: 100%;
@@ -26,3 +24,19 @@
     color: #0071c2;
     margin-left: 40px;
 }
+@media screen and (max-width: 600px){
+    .footer{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.fList{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+}
+

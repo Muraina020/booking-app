@@ -130,4 +130,15 @@
     font-size: 50px;
     color: lightgray;
 }
+@media screen and (max-width: 600px){
+    .hotelDetails{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+.hotelWrapper{
+    width: 90%;
+  padding: 15px;
+}
+}
 

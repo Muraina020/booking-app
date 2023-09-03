@@ -75,3 +75,29 @@
 .lsResult{
     flex: 3;
 }
+@media screen and (max-width: 600px){
+ 
+    .listWrapper{
+        width: 100%;
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-area: 15px;
+     }
+     .listSearch{
+        width: 95%;
+        padding: 15px;
+    }
+    .lsItem{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:2px;
+        margin-bottom: 10px;
+    }
+    .lsItem>input{
+        width: 100%px;
+        height: 30px;
+        border: none;
+        padding: px;
+     }
+}

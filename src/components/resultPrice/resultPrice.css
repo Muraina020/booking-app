@@ -45,3 +45,19 @@
      cursor: pointer;
      color: white;
  }
+ @media screen and (max-width: 600px){
+    .resultPrice{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reRating{
+   width: 90%;
+  
+}
+.reTaxOpt{
+   width: 90%;
+}
+
+}

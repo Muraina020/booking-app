@@ -25,3 +25,11 @@
     color: grey;
 
 }
+@media screen and (max-width: 600px){
+    .pList{
+     width: 90%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 15px;
+}
+}

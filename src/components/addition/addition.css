@@ -53,3 +53,12 @@
     color: gray;
     font-weight: 500;
 }
+@media screen and (max-width: 600px){
+    .add{
+     width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+}

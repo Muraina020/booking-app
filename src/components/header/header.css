@@ -109,3 +109,48 @@
 .optionCounterButton:disabled{
     cursor: not-allowed;
 }
+
+@media screen and (max-width: 600px){
+    .header{
+        position: relative;
+    }
+    .headerContainer{
+     width: 90%;
+ }
+
+    .headerList{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    
+    }
+    .headerSearch{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        border: none;
+        z-index: 2;
+        position: absolute;
+    }
+  
+  
+    .date{
+        position: absolute;
+        top: 130px;
+        z-index: 2;
+    }
+    .option{
+        z-index: 2;
+        position: absolute;
+        background-color: white;
+        top: 30px;
+    }
+    .headerSearchInput{
+        border: none;
+        outline: none;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+}

@@ -21,9 +21,6 @@ const Home = () => {
         <h1 className="homeTitle">Homes guests love</h1>
         <FeaturedProp />
         <h1 className="homeTitle">Stay at our top unique properties</h1>
-        <span className="homeAddition">
-          From castles and villas to boats and igloos, we have it all
-        </span>
         <Addition />
         <MailList/>
         <Footer/>
