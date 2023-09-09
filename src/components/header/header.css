@@ -135,7 +135,7 @@
     
     }
     .headerSearch{
-        width: 90%;
+        width: 85%;
         display: grid;
         grid-template-columns: 1fr;
         gap: 60px;
@@ -167,7 +167,7 @@
         padding: 10px;
     }
     .headerSearchItem>span{
-        font-size: 25px;
+        font-size: 18px;
        
     }
 
