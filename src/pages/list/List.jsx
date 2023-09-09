@@ -18,7 +18,7 @@ const List = () => {
  const [options, setOptions] = useState(location.state.options)
 
   return (
-    <div>
+    <div className=''>
       <Navbar/>
       <Header type="list"/>
       <div className="listContainer">

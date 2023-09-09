@@ -20,7 +20,6 @@
     top: 10px;
     height: max-content;
     width: 50%;
-    margin: 0px 10px;
 }
 .listResult{
     flex: 3;
@@ -82,17 +81,18 @@
 @media screen and (max-width: 600px){
  
     .listWrapper{
-        width: 100%;
-       display: grid;
-       grid-template-columns: 1fr;
-       grid-area: 15px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-right: 20px;
      }
      .listSearch{
-        width: 95%;
-        padding: 15px;
+        width: 90%;
+        /* padding: 15px; */
     }
     .lsItem{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         gap:2px;
@@ -102,6 +102,5 @@
         width: 100%px;
         height: 30px;
         border: none;
-        padding: px;
      }
 }
