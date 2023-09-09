@@ -85,7 +85,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
-        margin-right: 20px;
+        margin-right: 25px;
      }
      .listSearch{
         width: 90%;
@@ -102,5 +102,5 @@
         width: 100%px;
         height: 30px;
         border: none;
-     }
+     }it
 }
