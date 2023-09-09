@@ -6,6 +6,8 @@ import { useLocation } from 'react-router-dom'
 import { format } from 'date-fns'
 import { DateRange } from 'react-date-range'
 import SearchItem from '../../components/searchItem/SearchItem'
+import Footer from '../../components/footer/Footer'
+import MailList from '../../components/mailList/MailList'
 
 const List = () => {
   
@@ -63,14 +65,17 @@ const List = () => {
           </div>
           <div className="listResult">
             <SearchItem/>
+            {/* <SearchItem/>
             <SearchItem/>
             <SearchItem/>
             <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
+            <SearchItem/> */}
           </div>
         </div>
+        <MailList/>
+        <Footer/>
       </div>
+    
       </div>
   )
 }

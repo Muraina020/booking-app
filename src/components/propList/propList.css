@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding-left: 40px;
 }
 .pListItem{
     flex: 1;
@@ -27,9 +28,18 @@
 }
 @media screen and (max-width: 600px){
     .pList{
-     width: 90%;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     gap: 15px;
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        overflow-x: scroll;
+        /* Optional: You can also set a maximum height to control the height of the list on mobile */
+        max-height: 400px;
 }
+.pListItem{
+    flex: 0 0 auto; /* Allow items to shrink and not stretch to fill the space */
+    width: auto; /* Auto width based on content */
+    min-width: 150px;
+   
+}
+
 }

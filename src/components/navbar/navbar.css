@@ -1,8 +1,9 @@
 .navbar{
     background-color: #003580;
-    height: 50px;
+    height: 60px;
     display: flex;
    justify-content: center;
+   
    
 }
 .navContainer{
@@ -16,10 +17,14 @@
 }
 .logo{
   font-weight: 500;
+  font-size: 28px;
 }
 .navBtn{
  margin-left: 20px;
- padding: 5px 10px;
+ padding: 10px 20px;
+ border-radius: 5px;
+ background-color: white;
+ font-size: 18px;
  border: none;
  cursor: pointer;
  color: #003580;
@@ -27,6 +32,18 @@
 @media screen and (max-width: 600px){
   .navContainer{
    width: 80%;
-    
-  }
+}
+.logo{
+  font-weight: 500;
+  font-size: 18px;
+}
+.navBtn{
+  padding: 5px ;
+  background-color: white;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  color: #003580;
+  margin-left: 10px;
+ }
 }

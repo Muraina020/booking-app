@@ -18,3 +18,10 @@
     margin-top: 0px;
     margin-bottom: 5px;
 }
+@media screen and (max-width: 600px){
+    .homeContainer{
+      gap: 20px;
+    }
+
+
+}

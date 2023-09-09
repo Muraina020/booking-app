@@ -51,7 +51,7 @@ const Hotel = () => {
   }
   
   return (
-    <div>
+    <div className='hotel'>
       <Navbar/>
       <Header type="list"/>
       <div className="hotelContainer">

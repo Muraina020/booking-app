@@ -5,7 +5,7 @@ const PropList = () => {
   return (
     <div className='pList'>
      <div className="pListItem">
-        <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=" alt="" className="pListImg" />
+        <img src="https://cf.bstatic.com/xdata/images/hotel/square600/427506739.webp?k=6acc24baf51151f80ea7bbadb1d51bec7b1e422b6b85fc83ab256cdb559f5f33&o=" alt="" className="pListImg"/>
         <div className="pListTitles">
             <h1>Hotel</h1>
             <h2>133 Properties</h2>

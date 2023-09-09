@@ -1,7 +1,9 @@
 .listContainer{
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .listWrapper{
    width: 100%;
@@ -17,6 +19,8 @@
     position: sticky;
     top: 10px;
     height: max-content;
+    width: 50%;
+    margin: 0px 10px;
 }
 .listResult{
     flex: 3;

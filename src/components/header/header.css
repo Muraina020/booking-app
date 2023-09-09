@@ -31,12 +31,22 @@
 .headerDesc{
     margin: 20px 0;
 }
+.headerBt{
+    background-color: #0071c2;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
 .headerBtn{
     background-color: #0071c2;
     color: white;
-    padding: 10px;
+    margin-left: 30%;
+    padding: 15px 25px;
     cursor: pointer;
     border: none;
+    font-size: 20px;
 }
 .headerSearch{
     height: 30px;
@@ -45,7 +55,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px 0px;
-    border: 3px solid #febb02;
+    border: 8px solid #febb02;
     position: absolute;
     bottom: -25px;
     width: 100%;
@@ -125,32 +135,40 @@
     
     }
     .headerSearch{
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 1fr;
         gap: 60px;
-        border: none;
+        /* border: none; */
         z-index: 2;
         position: absolute;
+        border: 5px solid #febb02;
+        padding-left: 10px;
     }
   
   
     .date{
         position: absolute;
-        top: 130px;
+        top: 135px;
         z-index: 2;
+       
     }
     .option{
         z-index: 2;
         position: absolute;
         background-color: white;
-        top: 30px;
+        top: 50px;
+      
     }
     .headerSearchInput{
         border: none;
         outline: none;
         font-weight: 500;
         padding: 10px;
+    }
+    .headerSearchItem>span{
+        font-size: 25px;
+       
     }
 
 }
