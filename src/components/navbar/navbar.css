@@ -21,7 +21,7 @@
 }
 .navBtn{
  margin-left: 20px;
- padding: 10px 20px;
+ padding: 8px 15px;
  border-radius: 5px;
  background-color: white;
  font-size: 18px;
@@ -31,19 +31,23 @@
 }
 @media screen and (max-width: 600px){
   .navContainer{
-   width: 80%;
+   width: 75%;
 }
 .logo{
   font-weight: 500;
-  font-size: 18px;
+  font-size: 22px;
+}
+.navItems{
+  display: flex;
 }
 .navBtn{
   padding: 5px ;
   background-color: white;
   border: none;
   border-radius: none;
+  font-size: 15px;
   cursor: pointer;
   color: #003580;
-  margin-left: 7px;
+ 
  }
 }
