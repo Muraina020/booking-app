@@ -1,5 +1,6 @@
 import React from 'react'
 import "./resultPrice.css"
+import { Link } from 'react-router-dom'
 
 const ResultPrice = () => {
   return (
@@ -11,7 +12,9 @@ const ResultPrice = () => {
     <div className="reTaxOpt">
         <span className="rePriceOpt">$125</span>
         <span className="reTax">Includes taxes and fees</span>
+        <Link to="/hotel">
         <button className="rePriceBtn">see availability</button>
+        </Link>
     </div>
 </div>
   )
